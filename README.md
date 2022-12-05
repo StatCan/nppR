@@ -11,7 +11,7 @@ sample data.
 
 ``` r
 # First, install dependencies:
-install.packages(pkgs = c("devtools","R6"))
+install.packages(pkgs = c("devtools","R6","survey","tibble"))
 
 # Install nppR from source of a particular tag; for example, to install from tag v1.13.003:
 install.packages(repos = NULL, type = "source", pkgs = "https://github.com/StatCan/nppR/raw/v1.13.003/nppR_1.13.003.tar.gz")
