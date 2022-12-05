@@ -1,7 +1,7 @@
 Package: nppR
 Title: Inference on non-probability sample data via integrating probabilty
     sample data
-Version: 1.11.002
+Version: 1.13.003
 Authors@R: c(
     person("Jean-François", "Beaumont", , "jean-francois.beaumont@canada.ca", role = "aut"),
     person("Kenneth", "Chu", , "kenneth.chu@canada.ca", role = "cre",
@@ -19,11 +19,15 @@ Language: fr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
 Suggests: 
+    cowplot,
     ggplot2,
+    knitr,
     R.rsp,
     rmarkdown,
     rpart,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
-    R6
+    R6,
+    survey,
+    tibble
