@@ -4,8 +4,8 @@
 ## Overview
 
 The package nppR provides a collection of tools for making inference
-based on non-probability sample data by integrating auxiliary probability
-sample data.
+based on non-probability sample data by integrating information
+from auxiliary probability sample data.
 
 ## Installation
 
